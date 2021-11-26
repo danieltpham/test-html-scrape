@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>Marshall3000</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+            </div>
+            <p style="font-size:small">Date: 15/05/2019</p>
+         </div>
+         <div class="comment-column">
+            After the cullmunation of 21 films and 11 years we are finally here. Avengers Endgame is a Fantastic and Amazing film. Yeah... It's not perfect, but no movie really is.    As a movie i'd give it a 9.9/10    Enjoyment level: 3000/10 Baby
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/RufusVonDufus.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/iSimon420.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

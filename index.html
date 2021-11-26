@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>PauloReviews</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 26/04/2019</p>
+         </div>
+         <div class="comment-column">
+            "Avengers: Endgame" is about memories, nostalgia and tons of fan-service moments. This is a movie that understands its audience and fans, trying to give each character's story closure without forgetting to provide valuable entertainment for the whole crowd. It also might be a tad too cheesy for some people's taste, particularly when there's a comedic relief scene.My biggest concern coming into this movie was the insertion of bland and uninspired jokes that plagued my overall solid experience in "Infinity War". This film was an improvement in that regard but it isn't without its cringe-inducing moments. Things like the "Fortnite" scene (and more than that I won't say) just made me roll my eyes. It's unbelievable how they manage to overkill it with these comedic scenes that are so painfully unnecessary and do nothing to advance the plot. I understand that you're trying to make your audience have a good time and all, but this is just unbearable.Other than that, the comedy - I thought - worked just nicely for the most part. The jokes that existed didn't ruin the tension.The characters were very central in this movie. Some characters shined; others not so much. I didn't like "Captain Marvel" and I certainly don't like the titular character, so I was grateful that she was underused in this movie. Everytime she's on screen and she smiles at the camera, it feels as though the actress is trying to show charisma, but there's none whatsoever. Not that the actress is awful - it's simply that she is not as interesting as the writers are portraying her to be. I know some critics enjoyed Chris Hemsworth's performance and the character, but it's sad to see that the character is reduced to a comedic relief (again).The movie also boasts an impressive budget, with so many set-pieces and computer-generated effects to be observed. This element of the movie provided the writers with so many angles to explore the story. While "Avengers: Endgame" is three hours long, the narrative is entertaining enough to overcome the more stale sequences. The movie never feels dull and it keeps you in the edge of your seat. I had a fun time watching it.7/10.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/duckhost.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/VGAlex.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

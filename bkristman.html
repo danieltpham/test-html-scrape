@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>bkristman</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 26/04/2019</p>
+         </div>
+         <div class="comment-column">
+            A very mixed bag of good ,bad and meh. They actually could have split this episode into 2 parts and it would have been better because they tried to jam way too much exposition,wrapping up of loose ends and results for all characters into 'only' 3 hours.That didn't leave any time for most characters to be anything more than devices to move the plot along.The last hour makes the price of admission worth it though as a lot happens.Anyone worried about Captain Marvel taking over the film as dominant figure rest easy .It's not that way. Still worth an 8.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/BeastJ18.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/Ms_Dusty.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

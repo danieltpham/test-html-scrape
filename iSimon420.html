@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>iSimon420</strong>
+            <div id="star-review">
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 05/05/2019</p>
+         </div>
+         <div class="comment-column">
+            After the mind-blowingly stellar and near perfect Avengers: Infinity Wars, I went to see Avengers: EndGame and was severely disappointed. Despite an admirable performance by Robert Downey Jr, the rest of this trainwreck is easily the worst Marvel movie made in years. Horrid pacing and a non-existent script and the most cringe-worthy performance outshine the admittedly fantastic CGI and strong choreography. It goes to show that a movie even with triple AAA CGI and special effects will fall flat on its face without a coherent and strong script. The Hulk is made into an absolute joke in EndGame, and Thanos motivations are little different from the prequel, except worse. Chris Hemsworth's performance as an Alcoholic Thor destroys what little hope was left for this movie. To say Hemsworth's performance was cringe-worthy doesn't do the experience any justice. Outside of Robert Downey Jr, most of the actors felt flat and uninspired in Endgame. Little is different about the plot from Infinity War, except that Infinity War had a dark twist ending and compellingly developed the antagonist as a villain. In Endgame, Thanos just feels like a substandard cliche, "I want to take over the world" stereotype. Despite the phenomenal battle scenes and choreography, the robotic and lifeless performance from the rest of the cast, not to mention aggravatingly horrible jokes and cliches riddled throughout the picture destroy all credibility this film could have had. Its as if the film directors and screenwriters looked at all the elements that were prodigious about Infinity War and said to themselves, "Who needs ANY of that when we can have cliches?"    Avengers: Infinity War is without a doubt the superior film, and Marvel would be wise to revisit its strongest aspects to improve on the sequel.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/Marshall3000.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/Krossbone.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

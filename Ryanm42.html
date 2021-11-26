@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>Ryanm42</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 30/04/2019</p>
+         </div>
+         <div class="comment-column">
+            A bit of a mess...But it might grow on me.This movie was not nearly as tight and orderly as Infinity War.  It had way too much going on, got bogged down in too many needless scenes that dragged too long and poorly told jokes that did not stick like they usually do.The final battle did not have nearly as much action as expected.  And since it was against time-travel Thanos it really didn't feel like it was against the real Thanos from Infinity War.  A missed opportunity.The Russo Brothers said they wanted to dedicate this one to the fans.  If you want to please the fans, then make a great movie.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/Nereaw.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/Rebecca31.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

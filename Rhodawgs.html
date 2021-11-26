@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>Rhodawgs</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 26/04/2019</p>
+         </div>
+         <div class="comment-column">
+            47 out of 100 . Enjoyable somewhat but is clearly set out for closure needing fan base.  Poor script and dull emotional baggage bonded with lucky plot scenes over and over again. Compared to the comic unimaginative and another same old loophole movie dragged out over 3hrs...... entertaining in parts but the 6 rolls in every scene for every instance with these defeated bunch brings eyerolls for the most part. Especially the absolute silly she scenes eyerolls pretty much just barely keeping you awake at this point. Thanos character is inconsistent and stripped down  let alone others in the movie.  Plenty of plot holes and sub plots that are just to rubbish to expand on. The last movie was much better and I'm sure many needed the enjoyment of closure around the story. But a stained finish to the marvel seris really and kinda left out a movie for everyone. The movie was about bringing back and includeing everyone but the movie was catered towards certain audiences and lack luster scenes of luck isn't up to scratch and was a below par mashup . Long . Lazy.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/blahhhh.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/Nereaw.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

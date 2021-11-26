@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>The-Lucky-Lucas</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+            </div>
+            <p style="font-size:small">Date: 07/05/2019</p>
+         </div>
+         <div class="comment-column">
+            After being the 22nd movie in the franchise, it brings the series to new heights. This movie is best benefited by those who have watched most of, if not all of the Marvel films. Throwbacks and characters appear from more than last decade of movies. The acting and comedy is on point with every joke hitting perfectly and every actor showing their passion for the role. The movies set pieces are perfect with sets from past movies. The action, humor and overall story telling shows the passion that not only the Russo brothers had for this film but everyone involved. The story concludes the 22 films perfectly while also leaving character arcs open for future MCU movies. This movie deserves the praise and excites me for future MCU movies in the future. This movie is a roller coaster which can be benefited most by those who have seen many of the other marvel films. Thank you to all those involved in the production of this movie, you have created a great films!
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/simevo1979.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/PhoenixFive.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

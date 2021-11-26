@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>NezharMC</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 03/05/2019</p>
+         </div>
+         <div class="comment-column">
+            A movie that seems like 3 movies fused: A part about regret and defeat, a part about a time heist and another that is the great battle we've all been waiting for.The humor is hit or miss, with some jokes being repeated too many times (Fat Thor). The time travel part creates a huge amount of plotholes, but it's interesting indeed.The movie lends too much time for the first part, filling much of the 3 hours of the movie. The main characters on this movie are the original avengers, whose story ends in this movie. The best part about this movie is how it ties up all the storylines of the MCU in a satisfying conclusion.It is a worse movie than Infinity War but it definitely isn't a disappointment. However it gives me the idea that the future of the MCU won't be that great, seeing as the most important Avengers in the next phase are mostly absent (I still don't see Captain Marvel as the leader of the New Avengers, it is still an undeveloped character).Hawkeye/Ronin's storyline is compelling and Scarlett Johansson works the best as Black Widow in this movie, although her sacrifice scene is a bit odd.The final battle against Thanos is compelling although being time travel Thanos makes it less dramatic. The battle between Thanos and Scarlet Witch could have been more emotional with a Thanos that killed Vision.Tony Stark's sacrifice is compelling as the end of Stark's character development, becoming a symbol for the hope of humanity and the Avengers. From being an arrogant and egotistical man to a selfless yet still arrogant hero, fighting for the future.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/hubmoonprint.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/yoshi594.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>RottenTomatos</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 28/04/2019</p>
+         </div>
+         <div class="comment-column">
+            (RottenTomatoes)- They delete my reviews frequently and the ratings for movies are not as accurate. There time was good, but MetaCritic's time is now. Thank you MetaCritic for not denying people freedom of speech and being corrupt. The 3 hours was unnecessary. First hour is filled with bad jokes and lines that sound like they were written by 5 year old. They spend time on things that don't matter. We want to see Iron man struggle in creating the time machine, we want to see Captain marvel searching to find Iron-man, we want to see Ant-man being abandoned in the void. We don't want to see people eating with hulk at a dinner talking about how they shouldn't give up hope and that the time machine idea is good. Like, seriously way too much time in convincing people to do things that they shouldn't need convincing of or we DID NOT NEED TO SEE. Then Captain america ruined the whole time theory they set up. If he went back in time and married her, then that means there were 2 captain Americas and he somehow stayed in hiding never got recognized. But then also, in a previous movie he banged her child, so presumably that means either she was never born because he married her. OR perhaps that means Captain america always was with her and then that means he **** his own daughter. But still that would mean that there should currently be one old Captain america and a young one. But we only see the old one. There should be two. And the shield was also supposed to go to Bucky.    This project took years and it is just barely not ****. They made the first one good, so they didn't need to try on this one I guess.    The last movie felt like adults wrote the script, but this one seems like it was written by a girl in 8th grade.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/ethanthewei.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/Filmanwalt.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

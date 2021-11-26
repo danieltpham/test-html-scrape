@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>duckhost</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 28/04/2019</p>
+         </div>
+         <div class="comment-column">
+            All right so here it goes. Better than Infinity War? No. Bad movie? Absolutely not. My biggest problem with this movie is that it tries to bite too much and it can't chew most of it. Especially when it comes with the script, Endgame is a bunch of movies mashed together and it works (for the most part). They subvert our expectations in some good ways and bad ways, my biggest problem with this was what they did to Thanos. They kill the original in the first 10 minutes of the movie so the villain of this movie it's another Thanos from another timeline who doesn't have the same experience that the original Thanos has. And he is in this movie for 5 minutes or more. But I think this is my only problem with this movie, they really wasted Thanos which is the best villain (as of 2019) in the Marvel Cinematic Universe.This is a 180 minutes movie and it really doesn't feel like it is which is an awesome thing and the directors and screenwriters should be commended by it, they really did a good job, the movie is the most fan service and that is great, Cap using Thor hammer is one of the best scenes in this franchise.Overall Endgame is a great movie that tries to do too much but I still think that is one of the best Marvel movies only losing to Infinity War.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/ryne.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/PauloReviews.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

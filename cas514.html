@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>cas514</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 26/04/2019</p>
+         </div>
+         <div class="comment-column">
+            A good ending for Captain America, Iron Man and Thor. Those 3 Battling Thanos at the same time was the best thing in the movie. Hulk was hilarious, i wish he got to fight Thanos too. Hawk Eye were finally used properly. But there was alot more bad than good in this movie. The Female Avengers Movie setup felt so forced no ones excited for that. Pepper Pots as Iron Man again? it didnt work in Iron Man 3 and it dam sure is not going to work in future movies. Captain Marvel, shes is just the worst..too OP to care about her future movies. Judging by the direction they are going, i see that this is the last Marvel Movie i will ever need to see. Its been fun.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/Lilydemarch.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/RustyDiamonds.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>

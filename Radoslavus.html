@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>COMP20008 Web Crawling Practice</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+      <h1 style="text-align: center;">Avengers: Endgame Review</h1>
+      <div class="comment-row">
+         <div class="comment-column">
+            <div style="width:50%"><a href="/"><img src="https://labs.openheritage.eu/assets/decidim/default-avatar-43686fd5db4beed0141662a012321bbccd154ee1d9188b0d1f41e37b710af3cb.svg" style="max-width:100%" /></a>
+            </div>
+            <strong>Radoslavus</strong>
+            <div id="star-review">
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star checked"></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+               <span class="fa fa-star "></span>
+            </div>
+            <p style="font-size:small">Date: 27/04/2019</p>
+         </div>
+         <div class="comment-column">
+            After Infinity War I had high hopes for this one. That's why the dissapoitement struck hard. There are a lot things done wrong with End Game and because of the below I gave it a 4/10:- Thor and Hulk put aside for no reason. They tried to make them some kind of funny characters, but it did not work.- Plot holes, plot holes everywhere. Just for example:(ultimate sacrafice for the soulstone - Hawkey lost his family already; time travel; Ant-Man rescued by rat; Thor took Mjolnir to his timeline; Nebula did not travel back in time, but stayed on the ship and got caught instead; Thor almost killed Thanos when he had the gauntlet with all stones and could not beat him without it; Tony takes all stones away from Thanos, just like that). There are many more, but those are the major ones.- weak, dull and unnecessary jokes - pace and narration problems. It felt somethimes like there was a struggle betwwen two concepts and both ideas were implemented.- forced and unnecessary "strong independent women to the rescue with Spiderman" sceneFor me a Marvel fan it is a huge disappointment, especially after such good Infinity War. End Game felt rushed and produced without a plan and highly inconsistent. A shame though.
+        </div>
+      </div>
+      <div class="row">
+         <div class="column"><a id="prevLinks" href="/PhoenixFive.html?rnd=1">Previous Comment</a></div>
+         <div class="column"><a id="nextLinks" href="/RufusVonDufus.html?rnd=2">Next Comment</a></div>
+      </div>
+   </body>
+   
+   <script>
+   document.getElementById("prevLinks").href=document.getElementById("prevLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   document.getElementById("nextLinks").href=document.getElementById("nextLinks").href.split('?')[0]+'?rnd='+new Date().getTime()+Math.floor(Math.random() *100);
+   </script>
+   
+</html>
